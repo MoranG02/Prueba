@@ -20,7 +20,7 @@ except Exception as e:
     st.stop()
 
 # Usar el identificador oficial exacto
-MODEL_ID = "gemini-2.5-flash"
+MODEL_ID = "gemini-3.6-flash"
 
 # Inicializar el historial de chat en la sesión
 if "messages" not in st.session_state:
