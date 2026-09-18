@@ -20,7 +20,7 @@ except Exception as e:
     st.stop()
 
 # Seleccionar el modelo por defecto (gemini-2.5-flash es excelente para chat rápido y eficiente)
-MODEL_ID = "gemini-3.6-flash"
+MODEL_ID = "gemini-3-flash"
 
 # Inicializar el historial de chat en la sesión de Streamlit
 if "messages" not in st.session_state:
